@@ -55,21 +55,6 @@ export function NavbarWithLogoActionsAndLeftAlignedLinks({
           </div>
           <div className="flex flex-1 items-center justify-end gap-4">
             <div className="flex shrink-0 items-center gap-5">{actions}</div>
-
-            <button
-              command="show-modal"
-              commandfor="mobile-menu"
-              aria-label="Toggle menu"
-              className="inline-flex rounded-full p-1.5 text-mist-950 hover:bg-mist-950/10 lg:hidden dark:text-white dark:hover:bg-white/10"
-            >
-              <svg viewBox="0 0 24 24" fill="currentColor" className="size-6">
-                <path
-                  fillRule="evenodd"
-                  d="M3.748 8.248a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 0 1.5h-15a.75.75 0 0 1-.75-.75ZM3.748 15.75a.75.75 0 0 1 .75-.751h15a.75.75 0 0 1 0 1.5h-15a.75.75 0 0 1-.75-.75Z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </button>
           </div>
         </div>
 

@@ -54,7 +54,8 @@ export function NavbarWithLogoActionsAndLeftAlignedLinks({
           <div className="flex flex-1 items-center justify-end gap-4">
             <div className="flex shrink-0 items-center gap-5">{actions}</div>
 
-            <button
+            {/* Mobile menu button removed */}
+            {/* <button
               command="show-modal"
               commandfor="mobile-menu"
               aria-label="Toggle menu"
@@ -67,7 +68,7 @@ export function NavbarWithLogoActionsAndLeftAlignedLinks({
                   clipRule="evenodd"
                 />
               </svg>
-            </button>
+            </button> */}
           </div>
         </div>
 

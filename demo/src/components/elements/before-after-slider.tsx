@@ -17,7 +17,7 @@ interface BeforeAfterSliderProps extends Omit<ComponentProps<'div'>, 'children'>
 
 export function BeforeAfterSlider({ examples, className, ...props }: BeforeAfterSliderProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [sliderPosition, setSliderPosition] = useState(50)
+  const [sliderPosition, setSliderPosition] = useState(25)
   const [isDragging, setIsDragging] = useState(false)
   const [isVertical, setIsVertical] = useState(false)
   const containerRef = useRef<HTMLDivElement>(null)
@@ -113,7 +113,7 @@ export function BeforeAfterSlider({ examples, className, ...props }: BeforeAfter
   }, [isDragging])
 
   return (
-    <div className={clsx('relative w-full', className)} {...props}>
+    <div className={clsx('relative w-full mt-4', className)} {...props}>
       {/* Slider Container */}
       <div
         ref={containerRef}

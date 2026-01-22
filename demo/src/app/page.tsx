@@ -100,7 +100,7 @@ export default function Page() {
           demo={
             <>
               <Screenshot className="rounded-md lg:hidden" wallpaper="blue" placement="bottom-right">
-                <div className="max-w-6xl mx-auto">
+                <div className="max-w-6xl mx-auto pb-4">
                   <BeforeAfterSlider
                     examples={[
                       {
@@ -126,7 +126,7 @@ export default function Page() {
                 </div>
               </Screenshot>
               <Screenshot className="rounded-lg max-lg:hidden" wallpaper="blue" placement="bottom">
-                <div className="max-w-6xl mx-auto">
+                <div className="max-w-6xl mx-auto pb-4">
                   <BeforeAfterSlider
                     examples={[
                       {
@@ -497,7 +497,7 @@ export default function Page() {
         {/* Pricing */}
         <PricingMultiTier
           id="pricing"
-          headline="Pricing to fit your business needs."
+          headline="Pricing to fit your needs."
           plans={
             <>
               <Plan
