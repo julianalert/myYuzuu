@@ -1,0 +1,13 @@
+{
+  "name": "myyuzuu",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "clsx": "^2.1.1",
+    "react": "^19",
+    "react-dom": "^19",
+    "typescript": "^5"
+  }
+}
